@@ -1,0 +1,174 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  background-color: rgb(242, 240, 240);
+  font-family: Open Sans, sans-serif;
+}
+
+header {
+  padding: 10px 0;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+nav {
+  background-color: #070707;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 15px;
+}
+nav a:hover {
+  color: black;
+  background-color: grey;
+}
+nav a:hover {
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.destacados {
+  width: 100%;
+  padding: 20px;
+}
+.destacados .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.destacados h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+.destacados .cards .card {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+.destacados .cards .card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.destacados .cards .card h3 {
+  margin: 10px;
+}
+.destacados .cards .card a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin: 10px;
+  display: inline-block;
+}
+.destacados .cards .card a:hover {
+  background-color: #a2a2a2;
+}
+#newsletter {
+  padding: 80px;
+  width: 100%;
+  background-color: rgb(81, 78, 78);
+}
+#newsletter h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+#newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 15px;
+}
+#banner-top-home {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url("https://www.apple.com/euro/home/aa/screens_alt/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: bottom;
+}
+#banner-top-home .text-banner {
+  color: white;
+  text-align: center;
+  padding: 5% 0 80px 0;
+  background-color: #0000001b;
+  height: 100%;
+}
+
+#banner-top-home .text-banner h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+#banner-top-home .text-banner p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 20px;
+}
+#banner-top-home .text-banner a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 100px;
+  display: inline-block;
+  border: 1px solid white;
+}
+#banner-top-home .text-banner a:hover {
+  background-color: #a2a2a2;
+}
+#newsletter input[type="email"]#email {
+  line-height: 40px;
+  width: 350px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 8px;
+  font-size: 1.1rem;
+  border: 0px;
+}
+#newsletter input[type="submit"] {
+  line-height: 13px;
+  font-size: 1.1rem;
+  border: 0px;
+  padding: 15px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.btn {
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #a2a2a2;
+}
